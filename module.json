@@ -1,0 +1,36 @@
+{
+  "name": "skill-extensions",
+  "title": "Skill Extensions 5E",
+  "description": "Add new Skills to the Foundry VTT DND5E system.",
+  "author": "CSMcFarland#6471, TheDraggo#1117, CookieLuc#3816",
+  "version": "1.0",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9.255",
+  "system": [
+    "dnd5e"
+  ],
+  "scripts": [],
+  "esmodules": [
+    "/src/skes-main.js",
+    "/src/settings.js"
+  ],
+  "dependencies": [
+    {
+      "name": "lib-wrapper",
+      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+    }
+  ],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "/lang/en.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "readme": ""
+}

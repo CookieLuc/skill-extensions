@@ -1,0 +1,10 @@
+{
+  "skes": {
+    "settings": {
+      "menu": {
+        "title": "Skill Extensions Settings Menu",
+        "open_config": "Open Config"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<form class="flexcol" autocomplete="off">
+    <h1>Skill Extension Configuration</h1>
+    <h2>Currently added Skills:</h2>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <th>Short:</th>
+            <th>Stat:</th>
+            <th>Delete?</th>
+        </tr>
+        {{#each this.settings.skill-list.value.Skills}}
+        <tr>
+            <td> {{this.Skillname}}</td>
+            <td> {{this.Shortname}}</td>
+            <td> {{this.Stat}} </td>
+            <td><input type="checkbox" name="Remove" value={{this.Shortname}} />
+        <td>
+        {{/each}}
+    </tr>
+        <tr>
+            <th>Name:</th>
+            <th>Short:</th>
+            <th>Stat:</th>
+            <th>Save?</th>
+        </tr>
+        <tr>
+            <td><input name="Skillname" placeholder="Insert Custom Skillname"/></td>
+            <td><input name="Shortname" placeholder="Insert Shortened name"/></td>
+
+            <td><select name="Stat">
+                <option value="str">Strength</option>
+                <option value="dex">Dexterity</option>
+                <option value="con">Constitution</option>
+                <option value="int">Intelligence</option>
+                <option value="wis">Wisdom</option>
+                <option value="cha">Charisma</option>
+            </select></td>
+            <td><input type="checkbox" name="Add"/></td>
+        </tr>
+    </table>
+    <h4>Changes made here will not take effect until the world has been reloaded</h4>
+    <footer class="sheet-footer flexrow">
+        <button type="submit" name="submit">
+            <i class="far fa-save"></i> Save
+        </button>
+    </footer>
+
+</form>

@@ -1,0 +1,24 @@
+{
+  "Skills": [
+    {
+      "Skillname": "Schlossknacken",
+      "Shortname": "lcp",
+      "Stat": "dex"
+    },
+    {
+      "Skillname": "Debug",
+      "Shortname": "dbg",
+      "Stat": "str"
+    },
+    {
+      "Skillname": "Baum-hauen",
+      "Shortname": "bh",
+      "Stat": "int"
+    },
+    {
+      "Skillname": "krebs",
+      "Shortname": "krb",
+      "Stat": "wis"
+    }
+  ]
+}
