@@ -30,7 +30,7 @@
     }
   ],
   "url": "https://github.com/CookieLuc/skill-extensions",
-  "manifest": "https://github.com/CookieLuc/skill-extensions",
+  "manifest": "https://raw.githubusercontent.com/CookieLuc/skill-extensions/main/module.json",
   "download": "https://github.com/CookieLuc/skill-extensions/archive/refs/heads/main.zip",
   "readme": "https://github.com/CookieLuc/skill-extensions/blob/main/README.md"
 }
