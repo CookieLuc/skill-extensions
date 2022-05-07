@@ -2,7 +2,7 @@
   "name": "skill-extensions",
   "title": "Skill Extensions 5E",
   "description": "Add new Skills to the Foundry VTT DND5E system.",
-  "author": "CSMcFarland#6471, TheDraggo#1117, CookieLuc#3816",
+  "author": "CookieLuc#3816, CSMcFarland#6471, TheDraggo#1117, ",
   "version": "1.0",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9.255",
@@ -29,8 +29,8 @@
       "path": "/lang/en.json"
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "readme": ""
+  "url": "https://github.com/CookieLuc/skill-extensions",
+  "manifest": "https://github.com/CookieLuc/skill-extensions",
+  "download": "https://github.com/CookieLuc/skill-extensions/archive/refs/heads/main.zip",
+  "readme": "https://github.com/CookieLuc/skill-extensions/blob/main/README.md"
 }
