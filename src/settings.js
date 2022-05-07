@@ -1,4 +1,4 @@
-const debounceReload = foundry.utils.debounce(window.location.reload, 100);
+const debounceReload = foundry.utils.debounce(window.location.reload.bind(window.location), 100);
 Handlebars.registerHelper('toJSON', function (obj) {
     return JSON.stringify(this);
 });
