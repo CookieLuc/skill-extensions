@@ -11,5 +11,5 @@ Insert https://raw.githubusercontent.com/CookieLuc/skill-extensions/main/module.
 After activating the module, go to the module settings. There is a template skill already added. Use the same format as the template.
 You will be able to access the skill data like every other skill with the newly added shortskill name.
 
-# KnownIssues
+# Known Issues
 There always has to be at least one special Skill, the last existing skill cannot be deleted until another is added
