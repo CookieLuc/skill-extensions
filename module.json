@@ -2,7 +2,7 @@
   "name": "skill-extensions",
   "title": "Skill Extensions 5E",
   "description": "Add new Skills to the Foundry VTT DND5E system.",
-  "author": "CookieLuc#3816, CSMcFarland#6471, TheDraggo#1117, ",
+  "author": "CookieLuc#3816",
   "version": "1.1",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9.255",
