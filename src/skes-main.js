@@ -1,11 +1,7 @@
 import {DND5E} from '/systems/dnd5e/module/config.js';
-import Actor5e from '/systems/dnd5e/module/actor/entity.js';
-import ActorSheet5eVehicle from '/systems/dnd5e/module/actor/sheets/vehicle.js';
 import {RegisterSettings} from "./settings.js";
 
 
-// Adds all the new skills.
-//DND5E.skills['lcp'] = 'Schlossknacken';
 
 Hooks.once('init', async function () {
     console.log("Skill Extensions Setting Up")
